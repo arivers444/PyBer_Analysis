@@ -25,25 +25,30 @@
 ### Challenges and Difficulties Encountered
 
 * Programming
-
+  - Pivoting the data on city type proved to be most challenging from a programming standpoint. Once I found the pd.pivot_table() function, things became quite simple.
+  
 * Data analysis
+  - Calculating the total drivers by city type was unexpectedly challenging. In pulling data from the pyber_data_df DataFrame, I was getting the same output for driver count as I was for total rides. I had determined the .sum() method was adding the number of drivers each time a ride was recorded for each city. We only needed to sum the drivers once for each city. I realized pulling data from the city_data_df DataFrame would yeild the correct information.
 
 * Graphing, etc
+  - Formatting the DataFrame to include thousands place commas and dollar signs was a challenge. Additionally, formatting the "Total Fare by City Type" graph to include the appropriate x tick markers and left justifying the x axis label of 2019 proved challenging.
 
 ### Technical Analyses Used
+  - In most every instance, finding Matplotlib documentation, Pandas documentation, or information on Stack Overflow solved my issues. I used .groupby(), .count(), and .sum() to find data and perform calculations. I also used the pd.pivot_table() function to see the data more clearly. I also used .loc() and .resample() to put data in bins to create a FiveThirtyEight style graph.
 
 ## Recommendations and Next Steps
+  - To address disparities among city types it might be useful to analyze data incorporating population of city or ride length.
 
 ### Recommendations for Future Analysis
 
 ### Additional Analysis 1
 
-* Description of Approach
+* The city population analysis would show if trends are similar in more populous cities versus less populous cites. This might help to determine if there are other factors influencing the trends seen above.
 
-* Technical Steps
+* Cities would be ranked in order of population and plotted against fare per ride. A bar graph would be useful in this analysis.
 
 ### Additional Analysis 2
 
-* Description of Approach
+* The ride length analysis would help to determine how influential distance per ride is on total fare. This too will help determine if there are other factors influencing the trends above.
 
-* Technical Steps
+* Fare per ride data could be plotted against distance per ride data to show trends to determine the role of distance on price per ride.
