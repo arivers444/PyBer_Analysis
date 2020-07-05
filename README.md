@@ -10,9 +10,9 @@
 
 ### Results
 ---
-![Results DataFrame](Challenge_DataFrame.png)
+![Results DataFrame](analysis/Challenge_DataFrame.png)
 ---
-![Results_Figure](Challenge_Fig.png)
+![Results_Figure](analysis/Challenge_Fig.png)
 ---
 Based on findings, Louise should attempt to get her play produced for less than £4,000. 
 ---
