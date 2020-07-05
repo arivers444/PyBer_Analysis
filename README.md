@@ -18,7 +18,7 @@
 ![Results_Figure](analysis/Challenge_Fig.png)
 ---
 ### Summary
-  - Illustrated above, more fare revenue is generated per ride for rural cities where rides are less frequent but longer rides. Moving to suburban and urban cities increases, respectively, the number of rides, however, the length of each ride also decreases respectively. This decreases the cost per ride. Shown in the second graph, however, most revenue is generated from the shorter, more frequent rides of the urban cities, followed by the suburban cities and rural cities.
+  - Illustrated above, more fare revenue is generated per ride for rural cities where rides are less frequent but longer rides. Moving to suburban and urban cities increases, respectively, the number of rides, however, the length of each ride also decreases respectively. Shown in the second graph, however, most revenue is generated from the shorter, more frequent rides of the urban cities, followed by the suburban cities and rural cities.
 
 ## Challenges Encountered and Overcome
 
